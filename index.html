@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <main class="content">
+        <header class="header">
+            <p class="header-title">TO-DO LIST</p>
+            <p class="header-checkall"><ion-icon name="checkbox-outline"></ion-icon></p>
+        </header>
+
+        <section class="new-task">
+            <input type="text" id="new-task-input" placeholder="Type a new task to add">
+            <ion-icon class="new-task-add" name="add-circle-outline"></ion-icon>
+        </section>
+
+        <ul class="tasks">
+            <!-- Dinamically implemented by Js -->
+        </ul>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
